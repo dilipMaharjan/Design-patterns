@@ -3,12 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package creational;
+package creational.abstractfactory;
+
+import creational.factory.*;
 
 /**
  *
  * @author dmaharjan
  */
-public interface Shape {
-void draw();
+public class Square implements Shape {
+
+    @Override
+    public void draw() {
+        System.out.println("Square Created.");
+    }
+
 }

@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package creational;
+package creational.abstractfactory;
 
 /**
  *
  * @author dmaharjan
  */
-public class Rectangle implements Shape{
+public class Blue implements Color {
 
     @Override
-    public void draw() {
-        System.out.println("Rectangle Created");
+    public void fill() {
+        System.out.println("Fills blue.");
     }
 
 }

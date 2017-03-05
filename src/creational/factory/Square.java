@@ -3,17 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package creational;
+package creational.factory;
 
 /**
  *
  * @author dmaharjan
  */
-public class Circle implements Shape {
+public class Square implements Shape {
 
     @Override
     public void draw() {
-        System.out.println("Circle Created.");
+        System.out.println("Square Created.");
     }
 
 }
